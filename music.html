@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music-All-About-Ayshan</title>
+    <link rel= "stylesheet" href="site.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="music.html">Music</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <article>
+            <section class ="card" id ="columns-desktop">
+               <div class = "Music">
+                   <img class="Music-Image" src="Music website images/emoji.jpg" alt = "Emoji" />
+                   <div class = "music-columns">
+                       <div class="title">Emoji</div>
+                       <div class="price">65 rands</div>
+                   </div>
+                   <p class = "desc">Lorem uedp sndjd remque</p>
+                   <button  id="click-me" data-order="emoji-song">Order</button>
+               </div>
+            </section>
+            <section class="columns-desktop">
+                <div class = "Music">
+                    <img  class="Music-Image"src="/Music website images/nhliziyo-yami.jpg" alt = "Nhliziyo-yami" />
+                    <a href="https://www.youtube.com/watch?v=sbr00zY4D34" class="tag" ></a>
+                    <div class = "music-columns">
+                        <div class="title">Nhliziyo-yami</div>
+                        <div class="price">65 rands</div>
+                    </div>
+                    <p class= "desc">Lorem uedNW DXHBD remque</p>
+                    <button id= "click-me" data-order="emoji-song">Order</button>
+                </div>
+             </section>
+        </article>
+
+    </main>
+    <footer>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="music.html">Music</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </footer>
+    <script>
+        window.addEventListener("DOMContentLoaded", function(e){
+         
+            let btn = document.getElementById("click-me");
+            btn.addEventListener("click", function(e){
+                console.log("button was clicked");
+
+            });
+
+
+        });
+    </script>
+
+</body>
+
+</html>
